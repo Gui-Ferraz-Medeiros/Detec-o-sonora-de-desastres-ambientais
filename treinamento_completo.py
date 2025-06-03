@@ -17,8 +17,8 @@ def extract_features(file_path, n_mfcc=13):
 
 def main():
     # Caminhos
-    csv_path = r"C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\meta\esc50.csv"
-    audio_folder = r"C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\audio"
+    csv_path = r"C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\meta\esc50.csv" # <-- Use o SEU caminho aqui
+    audio_folder = r"C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\audio" # <-- Use o SEU caminho aqui
 
     df = pd.read_csv(csv_path)
     print(f"Total de amostras: {len(df)}")
