@@ -44,8 +44,8 @@ def plot_matriz_confusao(y_true, y_pred, labels):
 
 def main():
     modelo_path = "random_forest_model.joblib"
-    pasta_audio = r"C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\audio"
-    csv_path = r"C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\meta\esc50.csv"
+    pasta_audio = r"C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\audio" # <-- Use o SEU caminho aqui
+    csv_path = r"C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\meta\esc50.csv" # <-- Use o SEU caminho aqui
 
     # Carregar o modelo treinado
     model = joblib.load(modelo_path)
