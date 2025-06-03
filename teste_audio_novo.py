@@ -10,7 +10,7 @@ def extract_features(file_path, n_mfcc=13):
     return mfccs_mean
 
 if len(sys.argv) != 2:
-    print(r"Uso: python teste_audio_novo.py C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\audio\1-19501-A-7.wav")
+    print(r"Uso: python teste_audio_novo.py C:\Users\Guilherme\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\Global Solution\Computer Organization and Structure\ESC-50-master\audio\1-19501-A-7.wav") # <-- Use o SEU caminho aqui
     sys.exit(1)
 
 audio_path = sys.argv[1]
